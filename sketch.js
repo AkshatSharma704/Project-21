@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background("black");  
+  background("cyan");  
   bullet.collide(wall);
   
   if(hasCollided(bullet, wall))
